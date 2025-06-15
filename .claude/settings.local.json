@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rg:*)",
+      "Bash(find:*)",
+      "Bash(npm start)",
+      "Bash(grep:*)",
+      "Bash(rm:*)",
+      "Bash(npm install:*)",
+      "Bash(npm test:*)",
+      "Bash(npx expo install:*)",
+      "Bash(node:*)",
+      "Bash(npx expo start:*)",
+      "Bash(pkill:*)",
+      "Bash(true)"
+    ],
+    "deny": []
+  }
+}
