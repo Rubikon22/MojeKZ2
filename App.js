@@ -72,8 +72,8 @@ const AppContent = () => {
  * Inicjalizuje podstawowe providery i error boundary
  */
 const App = () => {
+  // Główny error boundary dla całej aplikacji
   return (
-    {/* Główny error boundary dla całej aplikacji */}
     <AuthErrorBoundary>
       {/* Provider motywów - musi być na najwyższym poziomie */}
       <ThemeProvider>
@@ -81,6 +81,5 @@ const App = () => {
       </ThemeProvider>
     </AuthErrorBoundary>
   );
-};
 
 export default App;
