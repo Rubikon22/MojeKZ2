@@ -15,34 +15,27 @@
     "ios": {
       "supportsTablet": true
     },
-    "package": "com.yourcompany.mojabiblioteczka",
-    "permissions": [
-      "android.permission.RECORD_AUDIO"
+    "android": {
+      "package": "com.yourcompany.mojabiblioteczka",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Aplikacja potrzebuje dostępu do twoich zdjęć, aby dodać okładkę książki.",
+          "cameraPermission": "Aplikacja potrzebuje dostępu do aparatu, aby zrobić zdjęcie okładki książki."
+        }
+      ]
     ],
     "extra": {
       "eas": {
         "projectId": "f9594af7-5c3f-486f-aacc-a0ba781423df"
       }
-    },
-    "android": {
-      "package": "com.rubi22.mojabiblioteczka"
-    }
-  },
-  "web": {
-    "favicon": "./assets/favicon.png"
-  },
-  "plugins": [
-    [
-      "expo-image-picker",
-      {
-        "photosPermission": "Aplikacja potrzebuje dostępu do twoich zdjęć, aby dodać okładkę książki.",
-        "cameraPermission": "Aplikacja potrzebuje dostępu do aparatu, aby zrobić zdjęcie okładki książki."
-      }
-    ]
-  ],
-  "extra": {
-    "eas": {
-      "projectId": "f9594af7-5c3f-486f-aacc-a0ba781423df"
     }
   }
 }
