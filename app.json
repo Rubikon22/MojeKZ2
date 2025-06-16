@@ -17,12 +17,11 @@
     "ios": {
       "supportsTablet": true
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.yourcompany.mojabiblioteczka"
+
+      "package": "com.yourcompany.mojabiblioteczka",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -35,6 +34,11 @@
           "cameraPermission": "Aplikacja potrzebuje dostępu do aparatu, aby zrobić zdjęcie okładki książki."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f9594af7-5c3f-486f-aacc-a0ba781423df"
+      }
+    }
   }
-}
+
