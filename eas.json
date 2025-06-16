@@ -15,13 +15,17 @@
       }
     },
     "production": {
-      "autoIncrement": true
-    },
-    "local": {
+      "distribution": "store",
       "android": {
         "buildType": "apk"
       },
-      "distribution": "internal"
+      "autoIncrement": true
+    },
+    "local": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
     }
   },
   "submit": {
